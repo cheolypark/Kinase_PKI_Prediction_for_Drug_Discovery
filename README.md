@@ -12,7 +12,7 @@ This research aims to develop a drug discovery system in which a proper molecule
 | CC(=NNC(=N)N)c1cc(NC(=O)NCCCC<br/>CCNC(=O)Nc2cc(C(C)=NNC(=N)N)<br/>cc(C(C)=NNC(=N)N)c2)cc(C(C)=NNC(=N)N)c1 | 6    | JAK2   |
 | ...                                                                                                        | ...   | ...  |
 
-### 1.2 molecule from SMILES
+### 1.2 Molecule from SMILES
 
 | JAK1                                                          | JAK2                                                         | JAK3                                                         | TYK2                                                          |
 |---------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------|---------------------------------------------------------------|
