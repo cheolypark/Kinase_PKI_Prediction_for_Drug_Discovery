@@ -1,0 +1,9 @@
+key,value
+NET,GAN
+MAE,0.6076
+MSE,0.6204
+RMSE,0.7877
+epoch_size,200
+batch_size,64
+hidden,512
+num_layers,6

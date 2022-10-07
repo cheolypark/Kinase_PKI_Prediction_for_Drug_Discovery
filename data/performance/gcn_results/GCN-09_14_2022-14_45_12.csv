@@ -1,0 +1,8 @@
+key,value
+NET,GCN
+MAE,0.5594
+MSE,0.5334
+RMSE,0.7303
+batch_size,64
+epoch_size,200
+embedding_size,128

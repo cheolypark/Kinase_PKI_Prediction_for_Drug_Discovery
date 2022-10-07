@@ -1,0 +1,5 @@
+# Project exclude paths
+/data/input/processed
+/data/output/ML1
+/data/output/ML2
+/data/output/ML3

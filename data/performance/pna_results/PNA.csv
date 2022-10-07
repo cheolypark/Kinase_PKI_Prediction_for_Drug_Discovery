@@ -1,0 +1,8 @@
+key,value
+NET,PNA
+MAE,0.3859
+MSE,0.3334
+RMSE,0.5774
+batch_size,64
+epoch_size,200
+num_layers,24
