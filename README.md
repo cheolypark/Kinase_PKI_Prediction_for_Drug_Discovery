@@ -25,7 +25,7 @@ This research aims to develop a drug discovery system in which a proper molecule
  
 ## 2.Data Processing
 ### 2.1 Converting the raw csv file to the graph files
-- I used **pytorch-geometric.Dataset** and **pytorch-geometric.data** to wrap the raw data, **kinase_data.csv**.
+- I used **pytorch-geometric.Dataset** and **pytorch-geometric.data** to wrap the raw data, **kinase_data.csv** (small data (only 100 cases)).
 - The class **KinaseDataset** in **DP1_Data_Processing.py** is the wrapper based on **pytorch-geometric.Dataset**.
 - The class **KinaseDataset** generates each graph file (e.g., graph_1.gp) corresponding to each case of **kinase_data.csv**.
 - When generating graph files, **the cases of the data are shuffled**, so we don't shuffle the data later.
@@ -475,7 +475,8 @@ This research aims to develop a drug discovery system in which a proper molecule
         - **input**
             - **processed** **[Stores the graph data files generated from kinase_data.csv]**
             - **raw**
-                - kinase_data.csv
+                - kinase_data.csv (small data (only 100 cases))
+                - For full data, please contact me.
             - **output**
                 - **DA1** **[Stores the results from DA1_~.py]** 
                 - **ML1** **[Stores the results from ML1_~.py]**
