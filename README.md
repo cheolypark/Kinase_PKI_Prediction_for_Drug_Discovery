@@ -434,12 +434,6 @@ This research aims to develop a drug discovery system in which a proper molecule
 - Modify deeplearning models
     - We can modify the existing deeplearning models.
 
-- Create new deeplearning models
-    - I tried to develop a general ML model using the existing models and the kinase data.
-    - The important states or modes of the data were **measurement_type** and **Kinase_name**.
-    - The ML model must be clearly aware of these modes, so it can switch its internal parameters or weights for proper prediction.
-    - We may be able to make an ML model which is clearly aware of these modes.
-
 - Other deep learning library
     - I used pytorch-geometric.
     - We can use other libraries such as Deep Graph Library (DGL) to investigate same models in pytorch-geometric and other models only DGL provides.
